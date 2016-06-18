@@ -1,4 +1,4 @@
-# spyOn
+# spyOn [![Build Status](https://travis-ci.org/gabrielperales/spyOn.svg?branch=master)](https://travis-ci.org/gabrielperales/spyOn)
 
 ## What?
 Small library for creating spies for your functions and methods in your tests
