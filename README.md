@@ -64,6 +64,8 @@ console.log.getArgsOfCall(1); // ["I'm being spied!!"]
 console.log = console.log.restore();
 ```
 
+You can also check the test [file](https://github.com/gabrielperales/spyOn/blob/master/test/spyonSpec.js) to see more details and examples.
+
 ## License
 
 MIT © [Gabriel Perales](http://gabriel.perales.me)
