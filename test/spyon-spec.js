@@ -1,3 +1,6 @@
+if(typeof require === 'function')
+  spyOn = require('../lib/spyon');
+
 describe('Testing the test environment', function(){
   it('expect true to be true, and false not to be true', function(){
     expect(true).toEqual(true);

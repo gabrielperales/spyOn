@@ -2,12 +2,12 @@
   "name": "spyon",
   "version": "0.5.0",
   "description": "create spies for your functions and methods",
-  "main": "index.js",
+  "main": "lib/spyon.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS"
+    "test": "./node_modules/jasmine-node/bin/jasmine-node test/spyon-spec.js && ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS"
   },
   "repository": {
     "type": "git",
@@ -27,10 +27,10 @@
   "homepage": "https://github.com/gabrielperales/spyOn#readme",
   "devDependencies": {
     "jasmine-core": "^2.4.1",
+    "jasmine-node": "^1.14.5",
     "karma": "^0.13.22",
     "karma-jasmine": "^1.0.2",
     "karma-phantomjs-launcher": "^1.0.0",
-    "phantomjs": "^2.1.7",
-    "phantomjs-prebuilt": "^2.1.7"
+    "phantomjs": "^2.1.7"
   }
 }
