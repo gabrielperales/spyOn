@@ -1,4 +1,5 @@
 # spyOn [![Build Status](https://travis-ci.org/gabrielperales/spyOn.svg?branch=master)](https://travis-ci.org/gabrielperales/spyOn)
+[![NPM](https://nodei.co/npm/spyon.png)](https://nodei.co/npm/spyon/)
 
 ## What?
 Small library for creating spies for your functions and methods in your tests
@@ -41,7 +42,7 @@ Function we want to spy
 #### context
 Type: `object`
 
-Scope in which `fn` should be executed
+Context in which `fn` should be executed
 
 ### spyOn Methods
 
