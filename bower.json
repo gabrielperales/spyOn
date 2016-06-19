@@ -1,0 +1,24 @@
+{
+  "name": "spyon",
+  "description": "create spies for your functions and methods",
+  "main": "lib/spyon.js",
+  "authors": [
+    "Gabriel Perales"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "test",
+    "testing",
+    "spy",
+    "spies"
+  ],
+  "homepage": "https://github.com/gabrielperales/spyOn",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}

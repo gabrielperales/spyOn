@@ -11,7 +11,18 @@ great!
 With vanilla javascript and some time
 
 ## Installation
-Just add the script `lib/spyon.js` to your project
+Just add the script `lib/spyon.js` to your project, or if you are using bower or
+ npm you can also download the package:
+
+- npm:
+  ```bash
+  $ npm install spyon
+  ```
+
+- bower:
+  ```bash
+  $ bower install spyon
+  ```
 
 ## Usage and API
 
