@@ -29,7 +29,7 @@ When we import `factory` in another module, we should give it a name like `spyOn
 myFuncSpiedOn = spyOn(myFunc)
 ```
 
-If myFuncSpiedOn is called it will return `fn.apply(ctx, arguments)`. In other words, it will execute `fn` (the function passed to `spyOn`) with context `ctx` (if it was passed as the second argument of `spyOn`) and the arguments of `fn`.
+If myFuncSpiedOn is called it will return `fn.apply(ctx, arguments)`. In other words, it will execute `fn` (the function passed to `spyOn`) with context `ctx` (if it was passed as the second argument of `spyOn`) and the arguments of `myFuncSpiedOn`.
 
 ##Methods of the spy function
 
