@@ -1,4 +1,5 @@
 # spyOn [![Build Status](https://travis-ci.org/gabrielperales/spyOn.svg?branch=master)](https://travis-ci.org/gabrielperales/spyOn)
+[![NPM](https://nodei.co/npm/spyon.png)](https://nodei.co/npm/spyon/)
 
 ## What?
 Small library for creating spies for your functions and methods in your tests
@@ -11,7 +12,18 @@ great!
 With vanilla javascript and some time
 
 ## Installation
-Just add the script `lib/spyon.js` to your project
+Just add the script `lib/spyon.js` to your project, or if you are using bower or
+ npm you can also download the package:
+
+- npm:
+  ```bash
+  $ npm install spyon
+  ```
+
+- bower:
+  ```bash
+  $ bower install spyon
+  ```
 
 ## Usage and API
 
@@ -30,7 +42,7 @@ Function we want to spy
 #### context
 Type: `object`
 
-Scope in which `fn` should be executed
+Context in which `fn` should be executed
 
 ### spyOn Methods
 
