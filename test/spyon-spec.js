@@ -1,8 +1,4 @@
-
-// Check if we are in a node environment
-if(typeof require === 'function') {
-  spyOn = require('../lib/spyon');
-}
+var spyOn = require('../lib/spyon');
 
 describe('Testing the test environment', function(){
   it('expect true to be true, and false not to be true', function(){

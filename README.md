@@ -1,4 +1,4 @@
-# spyOn [![Build Status](https://travis-ci.org/gabrielperales/spyOn.svg?branch=master)](https://travis-ci.org/gabrielperales/spyOn)
+# spyOn [![Build Status](https://travis-ci.org/gabrielperales/spyOn.svg?branch=master)](https://travis-ci.org/gabrielperales/spyOn) [![Code Climate](https://codeclimate.com/github/gabrielperales/spyOn/badges/gpa.svg)](https://codeclimate.com/github/gabrielperales/spyOn) [![Test Coverage](https://codeclimate.com/github/gabrielperales/spyOn/badges/coverage.svg)](https://codeclimate.com/github/gabrielperales/spyOn/coverage)
 [![NPM](https://nodei.co/npm/spyon.png)](https://nodei.co/npm/spyon/)
 
 ## What?
